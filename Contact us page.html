@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="mailto:timmytems680@gmail.com">
+      <label for="fullname">fullname</label>
+      <input
+        type="text"
+        placeholder="e.g clark kent"
+        name="Clark kent"
+        id="name"
+      />
+      <br />
+      <br />
+      <label for="Email">email</label>
+      <input
+        type="email"
+        placeholder="e.g timmytems680@gmail.com"
+        name="email"
+        id="email"
+        required
+      />
+      <br />
+      <br />
+      <label for="message">message</label>
+      <!-- textarea is what you use for the message part because it allows multi-line text input field -->
+      <!-- row and cols are styles you add to change the size of the message box -->
+      <br />
+      <textarea
+        name="message"
+        placeholder="Hello"
+        id="text me"
+        rows="10"
+        cols="40"
+        required
+      ></textarea>
+
+      <br />
+      <br />
+      <label for="Gender">Gender</label>
+      <br />
+      <input type="radio" name="gender" value="male" />
+      <label for="gender">male</label>
+      <input type="radio" name="gender" value="female" />
+      <label for="gender">female</label>
+
+      <br />
+      <br />
+      <label for="date-of-birth">date-of-birth</label>
+      <br />
+      <input type="date" />
+
+      <br />
+      <br />
+      <label for="age-group">Age group</label>
+      <br />
+      <input type="radio" name="Age-group" value="16-25" />
+      <label for="Age-group">16-25</label>
+      <input type="radio" name="age-group" value="26-35" />
+      <label for="Age-group">26-35</label>
+      <input type="radio" name="Age-group" value="37-50" />
+      <label for="age-group">37-50</label>
+      <input type="radio" name="age-group" value="50+" />
+      <label for="age-group">50+</label>
+
+      <br />
+      <br />
+      <select name="country" id="country">
+        <option disabled selected>select country</option>
+        <option value="america">America 🇺🇸</option>
+        <option value="canada">canada 🇨🇦</option>
+        <option value="nigeria">Nigeria 🇳🇬</option>
+      </select>
+
+      <br />
+      <br />
+
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
