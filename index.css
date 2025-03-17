@@ -556,7 +556,7 @@ padding-bottom: 2rem;
 #c-m-section > :nth-child(2){
   background-color: rgb(249, 247, 247);
   display: flex;
-  width: 80%;
+  width: 90%;
   border-bottom: 3px solid rgb(30, 5, 255);
   margin-left: 1.5rem;
   text-align: center;
@@ -567,7 +567,7 @@ padding-bottom: 2rem;
   i{
     margin-top: 0.5rem;
     display: flex;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     justify-content: center;
     color: rgb(16, 12, 12);
   }
