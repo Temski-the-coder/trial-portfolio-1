@@ -291,8 +291,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    justify-content: space-between;
-    gap: 2.5rem;
+    justify-content: space-around;
+    gap: 1.5rem;
     padding-right: 0.5rem;
   }
 }
