@@ -291,7 +291,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    justify-content: space-around;
+    align-items: center;
     gap: 1.5rem;
     padding-right: 0.5rem;
   }
