@@ -292,7 +292,7 @@ button {
     flex-wrap: wrap;
     width: 75%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: 2.5rem;
     gap: 1.5rem;
   }
