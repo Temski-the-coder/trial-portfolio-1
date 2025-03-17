@@ -273,7 +273,7 @@ button {
 
 #P-S {
   background-color: white;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
