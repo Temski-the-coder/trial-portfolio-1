@@ -290,10 +290,10 @@ button {
   #list {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     align-items: center;
     justify-content: center;
-    margin-left: 4.5rem;
+    margin-left: 2.5rem;
     gap: 1.5rem;
   }
 }
