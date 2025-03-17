@@ -3,11 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="trial portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>My Portfolio Page</title>
   </head>
   <body>
     <!-- Adding the nav tag to my trial portfolio -->
-    <nav>
+    <nav class="nav">
       <a href="Home">Home</a>
       <a href="About">About</a>
       <a href="Work">Work</a>
@@ -15,66 +31,217 @@
       <a href="Contact us">Contact us</a>
     </nav>
 
-    <!-- Adding the main tag to my trial portfolio -->
-    <main>
-      <section>
-        <label for="Home">Home</label>
+    <section id="First-container">
+      <div id="img">
+        <div id="first-text">
+          <h1>Hello, welcome to my page</h1>
+          <p>My Name Is Temenu Michael, a graduate of Redeemer's University</p>
+          <p>And</p>
+          <p>A Full Stack Web Developer</p>
+          <button>
+            <i class="fa-solid fa-image-portrait"></i>
+            <a href="">View Portfolio</a>
+          </button>
+        </div>
+        <img src="Profile pic.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="About-me-section">
+      <div id="Me-section">
+        <span><i class="fa-solid fa-user"></i>About Me</span>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
-          explicabo quaerat necessitatibus libero dolores aperiam quae optio.
-          Quis, fugit praesentium.
+          I am Temenu Michael, idan gan gan. A graduate of Redeemer's University
+          with a Bs.c in Mass Communication and a Software Developer. Here are
+          links to some of my projects
         </p>
-      </section>
+      </div>
 
-      <section>
-        <label for="About">About</label>
+      <div id="personal-info">
+        <div id="hubbies">
+          <div>
+            <i class="fa-solid fa-gamepad"></i>
+            <h1>Games</h1>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h1>Websites</h1>
+          </div>
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h1>Softwares</h1>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile"></i>
+            <h1>Application</h1>
+          </div>
+        </div>
+
+        <div id="PI">
+          <h1>Personal Information</h1>
+          <p>Full-Name : Temenu Oluwatimilehin Michael</p>
+          <p>Age : 22</p>
+          <p>Phone Number : 09024863242</p>
+          <p>Postal Number : 100001</p>
+          <p>Social Handle : Mike-the-coder</p>
+          <p>Github :https://github.com/Temski-the-coder</p>
+          <p>Email : Timmytems680@gmail.com</p>
+        </div>
+
+        <div id="last-part">
+          <div>
+            <i class="fa-regular fa-image"></i>
+            <h1>
+              New to the game with multiple Projects that showcases my mastery
+              in software development!
+            </h1>
+          </div>
+
+          <div id="en">
+            <i class="fa-solid fa-envelope"></i>
+            <h1>Hire Me</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div id="nth-child-1">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h1>My Skills</h1>
+      </div>
+
+      <div id="nth-child-2">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ab
-          hic officiis? Nam repellat quis ipsam ad iste porro architecto.
+          Here are a variety of Skills i have to offer, feel free to reach out
+          to me if you are in need of any.
         </p>
-      </section>
+      </div>
 
-      <section>
-        <h1>work</h1>
+      <div id="P-S">
+        <h1>List of Professional Skills</h1>
+        <div id="list">
+          <div><p>Html 5</p></div>
+          <div><p>Css 4</p></div>
+          <div><p>JavaScript</p></div>
+          <div><p>Photoshop</p></div>
+          <div><p>PHP</p></div>
+          <div><p>Marketing</p></div>
+          <div><p>S.E.O Optimization</p></div>
+          <div><p>Tailwind</p></div>
+          <div><p>React</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div id="edu">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h1>Education</h1>
+      </div>
+
+      <div id="P">
         <p>
-            <ul type="square">
-                <li>Video Animation</li>
-            </ul>
-            Here's an example of one of my works
-            <!-- Adding video to trial portfolio -->
-             <video width="500" height="500" controls autoplay muted loop>
-             <source
-             src="WhatsApp Video 2025-02-04 at 14.19.48_a6907920.mp4"
-             type="video/mp4"
-             />
-            </video>
-
-            <ul type="square">
-                <li>Software development</li>
-            </ul>
-            <a href="Index.html" target="_blank">Clck this link to check out my work</a>
-
-            <ul type="square">
-                <li>Graphics design</li>
-                <a href="KAC NEW YEAR DESIGN.png" target="_blank">click this link to check out my design</a>
-            </ul>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          veritatis dolor quo voluptatibus facere, quae animi aliquid hic eum
+          rem?
         </p>
-      </section>
+      </div>
 
-      <section>
-        <h1>Resume</h1>
-        <p>
-           <a href="TEMENU OLUWATIMILEHIN MICHAEL CV.pdf" target="_blank">Click on this link to see my resume</a>
-        </p>
-      </section>
+      <div id="history">
+        <div>
+          <i class="fa-regular fa-pen-to-square"></i>
+          <p1>Krisbethel College</p1>
+          <p1>(2008-2013)</p1>
+        </div>
 
-      <section>
-        <h1>Contact us</h1>
-        <p>click on the link below to reach out to us
-          <br>
-            <a href="Contact us page.html" target="_blank">Contact page</a>
-        </p>
-      </section>
-    </main>
+        <div>
+          <i class="fa-regular fa-pen-to-square"></i>
+          <p1>Covet the Redeemer's College</p1>
+          <p1>(2013-2019)</p1>
+        </div>
+
+        <div>
+          <i class="fa-regular fa-pen-to-square"></i>
+          <p1>Redeemer's University, Ede, Osun State</p1>
+          <p1>(2019-2023) </p1>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact">
+      
+      <div>
+        <div id="C-M">
+          <i class="fa-regular fa-envelope"></i>
+          <h1>Contact Me</h1>
+        </div>
+        <div id="P">
+          <p>
+            Reach out to me and let's make your website into a work of art
+            basquait!
+          </p>
+        </div>
+      </div>
+      
+      <div id="contact-cnt">
+        <div>
+          <div id="c-m-section">
+            <div>
+              <i class="fa-solid fa-phone-volume"></i>
+              <p>09024863242</p>
+              <p>09024863242</p>
+            </div>
+  
+            <div>
+              <i class="fa-solid fa-at"></i>
+              <p>Timmytems680@gmail.com</p>
+            </div>
+  
+            <div>
+              <i class="fa-solid fa-user-plus"></i>
+              <p>Mike-the-coder</p>
+            </div>
+          </div>
+        </div>
+  
+
+        <form id="form" action="mailto:timmytems680@gmail.com">
+          <input type="text" placeholder="Your Full Name" />
+
+          <input type="email" placeholder="Your Email" />
+
+          <input type="text" placeholder="Subject" />
+
+          <textarea class="nth-child"
+            placeholder="Inquiry"
+            id="text me"
+            rows="10"
+            cols="20"
+            required
+          ></textarea>
+
+          <button type="submit">
+            <i class="fa-solid fa-envelope"></i>
+            <h1>Send</h1>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div id="footer">
+        <i class="fa-solid fa-cubes"></i>
+        <p>Made by Mike-the-coder</p>
+        <p>2025</p>
+      </div>
+      <div id="social-links">
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
   </body>
 </html>
