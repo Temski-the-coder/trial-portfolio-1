@@ -7,7 +7,6 @@ body {
 .nav {
   background-color: rgb(255, 255, 255);
   padding: 10px 30px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -291,7 +290,7 @@ button {
   #list {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     gap: 2.5rem;
     padding-right: 0.5rem;
@@ -299,7 +298,7 @@ button {
 }
 
 #list > :nth-child(1) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -309,7 +308,7 @@ button {
 }
 
 #list > :nth-child(2) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -319,7 +318,7 @@ button {
 }
 
 #list > :nth-child(3) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -329,7 +328,7 @@ button {
 }
 
 #list > :nth-child(4) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -339,7 +338,7 @@ button {
 }
 
 #list > :nth-child(5) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -349,7 +348,7 @@ button {
 }
 
 #list > :nth-child(6) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -359,7 +358,7 @@ button {
 }
 
 #list > :nth-child(7) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -369,7 +368,7 @@ button {
 }
 
 #list > :nth-child(8) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
@@ -379,7 +378,7 @@ button {
 }
 
 #list > :nth-child(9) {
-  width: 30%;
+  width: 20%;
   display: flex;
   background-color: rgb(251, 251, 251);
   margin-left: 0.5rem;
